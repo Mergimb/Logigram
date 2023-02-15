@@ -1,0 +1,44 @@
+{
+  "name": "logigram",
+  "private": true,
+  "version": "1.0.0",
+  "main": "package.json",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "sanity dev",
+    "start": "sanity start",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "deploy-graphql": "sanity graphql deploy"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/client": "^4.0.1",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-is": "^18.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-masonry-css": "^1.0.16",
+    "react-router-dom": "^6.8.1",
+    "sanity": "^3.3.1",
+    "styled-components": "^5.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@sanity/eslint-config-studio": "^2.0.1",
+    "eslint": "^8.6.0",
+    "prettier": "^2.8.3",
+    "typescript": "^4.0.0"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 100,
+    "bracketSpacing": false,
+    "singleQuote": true
+  }
+}
